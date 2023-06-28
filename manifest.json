@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "imood better forum",
   "description": "an extension to make the forum on imood look nicer",
-  "version": "1.0.0",
+  "version": "1.0.1",
 
   "content_scripts": [
     {
@@ -10,6 +10,13 @@
       "js": ["forum.js"]
     }
   ],
+
+  "browser_specific_settings": {
+  "gecko": {
+    "id": "extensionemail????idk@website.com",
+    "strict_min_version": "42.0"
+  }
+}
 
   "icons": {
     "16": "icon16.png",
